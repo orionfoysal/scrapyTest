@@ -29,3 +29,12 @@ class PainterSpider(scrapy.Spider):
                 'Contact' : contact,
                 'Web' : web,
                 'Address' : address }
+
+    
+    # def parse(self, response):
+
+    #     links = response.xpath('//*[@id="memberArea"]/div[2]/h4[3]/a/@href').extract()
+
+    #     for link in links:
+
+
